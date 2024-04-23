@@ -8,8 +8,16 @@ import { HeaderComponent } from './core/header/header.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { WelcomeComponent } from './core/welcome/welcome.component';
 import { BrandsComponent } from './core/brands/brands.component';
+import { FooterComponent } from './core/footer/footer.component';
+
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, WelcomeComponent, BrandsComponent],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    WelcomeComponent,
+    BrandsComponent,
+    FooterComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,

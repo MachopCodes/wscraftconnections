@@ -1,0 +1,11 @@
+mat-toolbar {
+  background-color: brown;
+  mat-toolbar-row {
+    display: flex;
+    justify-content: center;
+  }
+  a {
+    color: white;
+    font-size: 16px;
+  }
+}
