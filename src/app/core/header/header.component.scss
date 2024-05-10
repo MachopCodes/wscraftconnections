@@ -6,6 +6,9 @@ mat-toolbar {
     padding-top: 50px;
   }
   img {
+    @media (min-width: 800px) {
+      padding-top: 50px;
+    }
     cursor: pointer;
   }
 }
