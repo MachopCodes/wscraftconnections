@@ -1,6 +1,13 @@
 mat-toolbar {
   background-color: brown;
   height: 15%;
+  @media (min-width: 400px) {
+    height: 20%;
+    padding-top: 50px;
+  }
+  img {
+    cursor: pointer;
+  }
 }
 
 img {

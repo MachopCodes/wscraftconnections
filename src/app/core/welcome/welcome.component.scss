@@ -5,7 +5,10 @@
   background-size: cover;
   display: flex;
   flex-direction: column;
-  min-height: 400px;
+  height: 800px;
+  @media (max-width: 400px) {
+    height: 400px;
+  }
 }
 
 .container-2 {
@@ -14,16 +17,28 @@
   background-size: cover;
   display: flex;
   flex-direction: column;
-  min-height: 400px;
+  height: 800px;
+  @media (max-width: 400px) {
+    height: 400px;
+  }
 }
 
 h1 {
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 100px;
-  padding: 50px;
-  font-size: 20px;
-  line-height: 20px;
+  padding: 100px 50px 50px 50px;
+  @media (min-width: 800px) {
+    padding-top: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  @media (max-width: 400px) {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  font-size: 50px;
+  line-height: 60px;
   color: black;
   margin-top: 0;
   text-align: center;
